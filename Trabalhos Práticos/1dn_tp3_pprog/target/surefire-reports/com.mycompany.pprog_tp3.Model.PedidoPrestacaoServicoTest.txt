@@ -1,0 +1,149 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 22, Errors: 1, Skipped: 0, Time elapsed: 0.059 sec <<< FAILURE! - in com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest
+testGetListHorasFim(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListHorasFim(PedidoPrestacaoServicoTest.java:150)
+
+testGetNumPedidos(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetNumPedidos(PedidoPrestacaoServicoTest.java:94)
+
+testSetTipoServico(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetTipoServico(PedidoPrestacaoServicoTest.java:357)
+
+testGetEndPostal(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetEndPostal(PedidoPrestacaoServicoTest.java:290)
+
+testSetOutroCusto(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetOutroCusto(PedidoPrestacaoServicoTest.java:303)
+
+testAddData(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testAddData(PedidoPrestacaoServicoTest.java:180)
+
+testSetCliente(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetCliente(PedidoPrestacaoServicoTest.java:249)
+
+testAddServico(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testAddServico(PedidoPrestacaoServicoTest.java:165)
+
+testToString(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[ Cliente:  null Endereço Postal null Outro Custo null Descrição do serviço null Lista de Pedidos [] Lista Horas inicio [] Lista Horas de Fim[] Lista de datas []]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testToString(PedidoPrestacaoServicoTest.java:383)
+
+testAddHoraInicio(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testAddHoraInicio(PedidoPrestacaoServicoTest.java:193)
+
+testGetDescricaoServicoPedido(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetDescricaoServicoPedido(PedidoPrestacaoServicoTest.java:344)
+
+testGetListServicos(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListServicos(PedidoPrestacaoServicoTest.java:108)
+
+testSetM_numero(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetM_numero(PedidoPrestacaoServicoTest.java:82)
+
+testGetListDatas(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListDatas(PedidoPrestacaoServicoTest.java:122)
+
+testGetM_numero(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetM_numero(PedidoPrestacaoServicoTest.java:67)
+
+testSetEndPostal(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetEndPostal(PedidoPrestacaoServicoTest.java:276)
+
+testGetTipoServico(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetTipoServico(PedidoPrestacaoServicoTest.java:369)
+
+testGetCustoTotal(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetCustoTotal(PedidoPrestacaoServicoTest.java:236)
+
+testSetDescricaoServicoPedido(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServico.setDescricaoServicoPedido(PedidoPrestacaoServico.java:268)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetDescricaoServicoPedido(PedidoPrestacaoServicoTest.java:328)
+
+testGetListHorasInicio(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListHorasInicio(PedidoPrestacaoServicoTest.java:136)
+
+testSetCustoTotal(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetCustoTotal(PedidoPrestacaoServicoTest.java:222)
+
+testGetCliente(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetCliente(PedidoPrestacaoServicoTest.java:263)
+
+testGetOutroCusto(com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetOutroCusto(PedidoPrestacaoServicoTest.java:317)
+

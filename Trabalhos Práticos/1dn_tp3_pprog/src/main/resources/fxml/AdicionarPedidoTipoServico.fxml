@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="179.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.pprog_tp3.Controller.AdicionarPedidoTipoServicoController">
+   <left>
+      <CheckBox fx:id="boxServicoFixo" mnemonicParsing="false" onAction="#boxChecked" text="Serviço Fixo" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" />
+         </BorderPane.margin>
+      </CheckBox>
+   </left>
+   <center>
+      <CheckBox fx:id="boxServicoExpansivel" mnemonicParsing="false" onAction="#boxChecked" text="Serviço Expansível" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" />
+         </BorderPane.margin>
+      </CheckBox>
+   </center>
+   <right>
+      <CheckBox fx:id="boxServicoLimitado" mnemonicParsing="false" onAction="#boxChecked" text="Serviço Limitado" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" right="20.0" />
+         </BorderPane.margin>
+      </CheckBox>
+   </right>
+   <bottom>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#proximoAction" text="Próximo" GridPane.columnIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="30.0" />
+               </GridPane.margin>
+            </Button>
+            <Button layoutX="223.0" layoutY="7.0" mnemonicParsing="false" onAction="#cancelarAction" text="Cancelar" GridPane.halignment="RIGHT">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="20.0" right="30.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </bottom>
+   <top>
+      <Label text="Selecione o Tipo de Serviço" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

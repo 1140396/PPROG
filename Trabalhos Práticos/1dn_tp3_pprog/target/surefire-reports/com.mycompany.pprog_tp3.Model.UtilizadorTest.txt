@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.pprog_tp3.Model.UtilizadorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE! - in com.mycompany.pprog_tp3.Model.UtilizadorTest
+testGetListUtilizadores(com.mycompany.pprog_tp3.Model.UtilizadorTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[]> but was:<[Email: teste@gmail.com
+Password: teste
+Tipo de Utilizador: Cliente, Email: teste@gmail.com
+Password: teste
+Tipo de Utilizador: Cliente, Email: teste@gmail.com
+Password: teste
+Tipo de Utilizador: Cliente, Email: teste@gmail.com
+Password: teste
+Tipo de Utilizador: Cliente, Email: teste@gmail.com
+Password: teste
+Tipo de Utilizador: Cliente, Email: teste@gmail.com
+Password: teste
+Tipo de Utilizador: Cliente]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.UtilizadorTest.testGetListUtilizadores(UtilizadorTest.java:83)
+

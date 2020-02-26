@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.pprog_tp3.Model.EmpresaTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 2, Skipped: 0, Time elapsed: 0.045 sec <<< FAILURE! - in com.mycompany.pprog_tp3.Model.EmpresaTest
+testGetLstClientes(com.mycompany.pprog_tp3.Model.EmpresaTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.EmpresaTest.testGetLstClientes(EmpresaTest.java:121)
+
+testSetLstClientes(com.mycompany.pprog_tp3.Model.EmpresaTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.EmpresaTest.testSetLstClientes(EmpresaTest.java:135)
+
+testSetLstPrestadoresServico(com.mycompany.pprog_tp3.Model.EmpresaTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.EmpresaTest.testSetLstPrestadoresServico(EmpresaTest.java:110)
+
+testAddPrestadorServico(com.mycompany.pprog_tp3.Model.EmpresaTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.mycompany.pprog_tp3.Model.Empresa.addPrestadorServico(Empresa.java:171)
+	at com.mycompany.pprog_tp3.Model.EmpresaTest.testAddPrestadorServico(EmpresaTest.java:156)
+
+testAddCliente(com.mycompany.pprog_tp3.Model.EmpresaTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.mycompany.pprog_tp3.Model.Empresa.addCliente(Empresa.java:182)
+	at com.mycompany.pprog_tp3.Model.EmpresaTest.testAddCliente(EmpresaTest.java:167)
+

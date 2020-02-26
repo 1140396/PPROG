@@ -1,0 +1,32 @@
+Empresa
+PPROGTP3;250671493
+Utilizador
+teste@gmail.com;teste;Cliente
+Utilizador
+teste3@gmail.com;teste3;Prestador de Serviços
+Utilizador
+teste2@gmail.com;teste2;Administrador
+Serviço
+limpeza21;Limpar; Limpar tudo!;15.5;2
+Serviço
+Arranjos; arranjar; arranjar parcial!; 5; 8
+Área Geográfica
+Porto;15.4;5.5
+Área Geográfica
+Lisboa;8;15
+Código Postal
+4455-116
+Código Postal
+4455-639
+Código Postal
+8855-998
+Categoria
+cat1;limpeza
+Categoria
+cat2;arranjos
+Cliente
+testeCliente;254369874;teste@gmail.com;986587436
+Prestador de Serviços
+254369876;testePrest;TP;teste3@gmail.com
+Administrador
+testeAdmin;teste2@gmail.com

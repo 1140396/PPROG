@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.025" tests="23" errors="1" skipped="0" failures="22">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/jdk8/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="user.country.format" value="PT"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/bruno/Documents/Isep/2º Semestre/PProg/NetBeans/pprog_1dn_1140396_1181592_tp3"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/opt/jdk8/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/usr/local/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/usr/local/netbeans-8.2/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/opt/jdk8/jre/lib/amd64:/opt/jdk8/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-50-generic"/>
+    <property name="user.home" value="/home/bruno"/>
+    <property name="user.timezone" value="Europe/Lisbon"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="bruno"/>
+    <property name="java.class.path" value="/usr/local/netbeans-8.2/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/opt/jdk8/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/usr/local/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="/opt/jdk8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/opt/jdk8/jre/lib/resources.jar:/opt/jdk8/jre/lib/rt.jar:/opt/jdk8/jre/lib/sunrsasign.jar:/opt/jdk8/jre/lib/jsse.jar:/opt/jdk8/jre/lib/jce.jar:/opt/jdk8/jre/lib/charsets.jar:/opt/jdk8/jre/lib/jfr.jar:/opt/jdk8/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/netbeans-8.2/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testGetListHorasFim" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.002">
+    <failure message="expected:&lt;null&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListHorasFim(PedidoPrestacaoServicoTest.java:150)
+]]></failure>
+    <system-out><![CDATA[getListHoras
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNumPedidos" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.002">
+    <failure message="expected:&lt;0&gt; but was:&lt;2&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<2>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetNumPedidos(PedidoPrestacaoServicoTest.java:94)
+]]></failure>
+    <system-out><![CDATA[getNumPedidos
+]]></system-out>
+  </testcase>
+  <testcase name="testSetTipoServico" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetTipoServico(PedidoPrestacaoServicoTest.java:357)
+</failure>
+    <system-out><![CDATA[setTipoServico
+]]></system-out>
+  </testcase>
+  <testcase name="testGetEndPostal" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetEndPostal(PedidoPrestacaoServicoTest.java:290)
+</failure>
+    <system-out><![CDATA[getEndPostal
+]]></system-out>
+  </testcase>
+  <testcase name="testSetOutroCusto" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetOutroCusto(PedidoPrestacaoServicoTest.java:303)
+</failure>
+    <system-out><![CDATA[setOutroCusto
+]]></system-out>
+  </testcase>
+  <testcase name="testAddData" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testAddData(PedidoPrestacaoServicoTest.java:180)
+</failure>
+    <system-out><![CDATA[addData
+]]></system-out>
+  </testcase>
+  <testcase name="testSetCliente" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetCliente(PedidoPrestacaoServicoTest.java:249)
+</failure>
+    <system-out><![CDATA[setCliente
+]]></system-out>
+  </testcase>
+  <testcase name="testAddServico" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testAddServico(PedidoPrestacaoServicoTest.java:165)
+]]></failure>
+    <system-out><![CDATA[addServico
+]]></system-out>
+  </testcase>
+  <testcase name="testToString" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[ Cliente:  null Endereço Postal null Outro Custo null Descrição do serviço null Lista de Pedidos [] Lista Horas inicio [] Lista Horas de Fim[] Lista de datas []]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[ Cliente:  null Endereço Postal null Outro Custo null Descrição do serviço null Lista de Pedidos [] Lista Horas inicio [] Lista Horas de Fim[] Lista de datas []]&gt;	at org.junit.Assert.assertEquals(Assert.java:115)	at org.junit.Assert.assertEquals(Assert.java:144)	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testToString(PedidoPrestacaoServicoTest.java:383)</failure>
+    <system-out><![CDATA[toString
+]]></system-out>
+  </testcase>
+  <testcase name="testAddHoraInicio" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.002">
+    <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testAddHoraInicio(PedidoPrestacaoServicoTest.java:193)
+]]></failure>
+    <system-out><![CDATA[addHora
+]]></system-out>
+  </testcase>
+  <testcase name="testGetDescricaoServicoPedido" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetDescricaoServicoPedido(PedidoPrestacaoServicoTest.java:344)
+</failure>
+    <system-out><![CDATA[getDescricaoServicoPedido
+]]></system-out>
+  </testcase>
+  <testcase name="testGetListServicos" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="expected:&lt;null&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListServicos(PedidoPrestacaoServicoTest.java:108)
+]]></failure>
+    <system-out><![CDATA[getListServicos
+]]></system-out>
+  </testcase>
+  <testcase name="testSetM_numero" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetM_numero(PedidoPrestacaoServicoTest.java:82)
+</failure>
+    <system-out><![CDATA[setM_numero
+]]></system-out>
+  </testcase>
+  <testcase name="testGetListDatas" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0">
+    <failure message="expected:&lt;null&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListDatas(PedidoPrestacaoServicoTest.java:122)
+]]></failure>
+    <system-out><![CDATA[getListDatas
+]]></system-out>
+  </testcase>
+  <testcase name="testGetM_numero" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetM_numero(PedidoPrestacaoServicoTest.java:67)
+]]></failure>
+    <system-out><![CDATA[getM_numero
+]]></system-out>
+  </testcase>
+  <testcase name="testSetEndPostal" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.002">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetEndPostal(PedidoPrestacaoServicoTest.java:276)
+</failure>
+    <system-out><![CDATA[setEndPostal
+]]></system-out>
+  </testcase>
+  <testcase name="testGetTipoServico" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0">
+    <failure message="expected:&lt;&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetTipoServico(PedidoPrestacaoServicoTest.java:369)
+]]></failure>
+    <system-out><![CDATA[getTipoServico
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCustoTotal" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.002">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetCustoTotal(PedidoPrestacaoServicoTest.java:236)
+</failure>
+    <system-out><![CDATA[getCustoTotal
+]]></system-out>
+  </testcase>
+  <testcase name="testSetDescricaoServicoPedido" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.004">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServico.setDescricaoServicoPedido(PedidoPrestacaoServico.java:268)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetDescricaoServicoPedido(PedidoPrestacaoServicoTest.java:328)
+</error>
+    <system-out><![CDATA[setDescricaoServicoPedido
+]]></system-out>
+  </testcase>
+  <testcase name="testGetListHorasInicio" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="expected:&lt;null&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetListHorasInicio(PedidoPrestacaoServicoTest.java:136)
+]]></failure>
+    <system-out><![CDATA[getListHoras
+]]></system-out>
+  </testcase>
+  <testcase name="testSetCustoTotal" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testSetCustoTotal(PedidoPrestacaoServicoTest.java:222)
+</failure>
+    <system-out><![CDATA[setCustoTotal
+]]></system-out>
+  </testcase>
+  <testcase name="testGetCliente" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetCliente(PedidoPrestacaoServicoTest.java:263)
+</failure>
+    <system-out><![CDATA[getCliente
+]]></system-out>
+  </testcase>
+  <testcase name="testGetOutroCusto" classname="com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest" time="0.001">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.mycompany.pprog_tp3.Model.PedidoPrestacaoServicoTest.testGetOutroCusto(PedidoPrestacaoServicoTest.java:317)
+</failure>
+    <system-out><![CDATA[getOutroCusto
+]]></system-out>
+  </testcase>
+</testsuite>

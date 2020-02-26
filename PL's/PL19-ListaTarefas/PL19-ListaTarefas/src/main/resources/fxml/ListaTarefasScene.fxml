@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.isep.dei.pl19.listatarefas.controllers.ListaTarefaController">
+   <bottom>
+      <GridPane vgap="5.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#adicionarTarefaAction" prefWidth="400.0" text="Adicionar Tarefa" GridPane.halignment="CENTER" />
+            <Button fx:id="btnRemoverTarefa" minWidth="400.0" mnemonicParsing="false" onAction="#removerTarefaAction" text="Remover Tarefa" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+      </GridPane>
+   </bottom>
+   <center>
+      <ListView fx:id="listViewTarefa" prefHeight="200.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin></ListView>
+   </center>
+   <padding>
+      <Insets left="10.0" right="10.0" />
+   </padding>
+   <top>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="_Ficheiro">
+                  <items>
+                    <MenuItem fx:id="mnuFicheiroGuardarTexto" mnemonicParsing="false" onAction="#mnuFicheiroGuardarTextoAction" text="Guardar como texto" />
+                        <MenuItem fx:id="mnuFicheiroGuardarBinario" mnemonicParsing="false" onAction="#mnuFicheiroGuardarBinarioAction" text="Guardar como binário" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#mnuFicheiroSairAction" text="Sair" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.pprog_tp3.Controller.AdicionarPedidoDescricaoController">
+   <bottom>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#finalizarAction" text="Finalizar" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="30.0" />
+               </GridPane.margin>
+            </Button>
+            <Button layoutX="250.0" layoutY="7.0" mnemonicParsing="false" onAction="#voltarAction" text="Voltar" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="20.0" right="30.0" />
+               </GridPane.margin>
+            </Button>
+            <Label text="Duração (hh:mm):" GridPane.halignment="RIGHT">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="210.0" right="10.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="textFieldDuracao" maxWidth="100.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="210.0" left="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label layoutX="114.0" layoutY="-87.0" text="Outro Custo:" GridPane.halignment="RIGHT">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" right="10.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="textFieldOutroCusto" layoutX="260.0" layoutY="-92.0" maxWidth="100.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="100.0" left="10.0" />
+               </GridPane.margin>
+            </TextField>
+         </children>
+      </GridPane>
+   </bottom>
+   <top>
+      <Label text="Inserir Descrição e Duração do Serviço" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <TextArea fx:id="textAreaDescricao" maxHeight="130.0" maxWidth="350.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="120.0" />
+         </BorderPane.margin>
+      </TextArea>
+   </center>
+</BorderPane>
